@@ -1,5 +1,5 @@
 html{
-    background: linear-gradient(to top, #38df64, #E3E8E6);
+    background: linear-gradient(to top, #a8ee78, #b151f6);
 }
 * {box-sizing:border-box}
 #block-body {
@@ -15,15 +15,14 @@ html{
 .main_head{
    width: 100%; 
    height: 80px;
-   background: #000;
    border-radius: 0em 0.8em 0.8em 0em;
-
+   background-image: url('../image/head.jpg');
 }
 
 .info_head{
   padding: auto 0;
   height: 80px;
-  background-color: #61D7A4;
+  background-color: #52e713;
   text-align: center;
   font-size: 4.8em;
   color: #000;
@@ -57,7 +56,7 @@ html{
     -o-transition: all 0.5s ease;
     -ms-transition:all 0.5s ease;
     -moz-transition:all 0.5s ease;
-    background: #007241;
+    background: #52e713;
 }
 .block-top-auth {
     width: 100%;
@@ -85,7 +84,7 @@ html{
     -o-transition: all 0.5s ease;
     -ms-transition:all 0.5s ease;
     -moz-transition:all 0.5s ease;
-    color: #007241;
+    color: #52e713;
 }
 .clickMenu{
   width: 30%;
@@ -121,7 +120,7 @@ html{
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-   text-decoration: underline;
+   text-decoration: none;
   font-family:  "Exo2-Medium", sans-serif;
   font-size: 25px;
   color: #fff;
@@ -140,7 +139,7 @@ html{
 
 }
 .sidenav a:hover{
-  color: #007241;
+  color: #52e713;
 }
 
 .sidenav .closebtn {

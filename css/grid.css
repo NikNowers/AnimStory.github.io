@@ -13,13 +13,14 @@
 
 .conteiner .cols{
   float: left;
-
   margin: 0 0 0.1em 0;
 }
 .conteiner .cols.col-1 {
   width: 8.333333%;
 }
-
+.main {
+    padding: 20px;
+}
 
 .conteiner .cols.col-2 {
   width: 16.666667%;
@@ -115,7 +116,7 @@
 }
 .main{
     font-size: 0.8em;
-    padding: 0.3em;
+    padding: 0.5em;
     padding-top: 25px;
   
 }
@@ -144,11 +145,12 @@
   font-size: 1.2em;
 }
 .main{
-    padding: 0.3em;
+    padding: 10px;
     height: 70px;
-    padding-top: 20px;
 }
-
+.cols.col-1.main {
+    padding: 20px;
+}
 .main_text{
   font-size: 1.2em;
   
@@ -224,12 +226,13 @@ padding:0.625em 0.5em;
 
 .cols.col-1.main{
   width: 14%;
+  padding: 18px;
  }
  .cols.col-7.info_head{
   width: 46%;
  }
  .info_head{
-  font-size: 3em;
+  font-size: 2.5em;
   height: 65px;
   padding-top: 8.25px;
  }
@@ -245,7 +248,7 @@ padding:0.625em 0.5em;
 }
 .main{
     height: 65px;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .block-top-auth {
@@ -360,7 +363,7 @@ padding:0.625em 0.5em;
    padding-top: 17.5px;
  }
  .main{
-  font-size: 0.75em;
+  font-size: 0.65em;
 }
 .cols.col-7.info_head{
   width: 60%;
